@@ -25,7 +25,14 @@
 
                     });
                 }
-
+                
+                // ebola
+                // the common cold
+                // dengue
+                // hepatitis
+                // cowpox
+                // mumps
+                
                 $.get('http://wave100.no-ip.org:8084/RobinTracker/Finalize?roomid=' + roomid , function(data, status){
 
                 });
