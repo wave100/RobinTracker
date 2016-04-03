@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RobinTracker
 // @namespace    http://somesite.com
-// @version      0.1
+// @version      0.2
 // @description  Gathers cool robin stats!
 // @author       /u/wave100
 // @match        https://www.reddit.com/robin/
@@ -18,7 +18,12 @@
 
         // alert(roomname);
 
-        $.get('http://wave100.no-ip.org:8084/RobinTracker/RegisterClient?username=' + username, function(data, status){
+        //if (GM_getValue('firstrun', 0) === 0) {
+        //    GM_setValue('firstrun', 1);
+        //    alert('"Unsafe" scripts must be enabled in order for this plugin to function! This is because reddit uses HTTPS whereas my server only uses HTTP.');
+        //}
+
+        $.get('http://wave100.no-ip.org:8084/RobinTracker/RegisterClient?username=' + username + '&version=0.2', function(data, status){
 
         });
 
