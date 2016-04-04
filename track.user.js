@@ -5,7 +5,7 @@
 // @description  Gathers cool robin stats!
 // @author       /u/wave100
 // @match        https://www.reddit.com/robin/
-// @updateURL    https://github.com/wave100/RobinTracker/raw/master/robin.user.js
+// @updateURL    https://github.com/wave100/RobinTracker/raw/master/track.user.js
 // @grant        none
 // ==/UserScript==
 
